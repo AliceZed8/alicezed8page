@@ -17,7 +17,16 @@ body {
 .header-row {
     margin: 5%;
     display: flex;
+    flex-wrap: wrap;
+    
 }
+
+.header-left, .header-right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
 
 
 .contacts li {
