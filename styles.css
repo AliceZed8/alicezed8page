@@ -1,0 +1,100 @@
+body {
+    background-color: #2c2c2c;
+
+}
+
+.container{
+    border: solid;
+    border-radius: 1.5rem;
+    border-width: 2px;
+    border-color: blueviolet;
+    background-color: white;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-row {
+    margin: 5%;
+    display: flex;
+}
+
+
+.contacts li {
+    display: inline-block;
+}
+
+.contacts {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex;
+}
+
+.contacts li {
+    margin: 0 5px; 
+}
+
+.contacts img {
+    width: 40px; 
+    height: 40px; 
+    transition: filter 0.3s; 
+}
+
+.contacts img:hover {
+    filter: invert(0.4);
+}
+
+
+
+.contacts-info {
+    list-style-type: none; 
+    padding: 0; 
+}
+.contacts-info li {
+    margin-top: -10px;
+}
+
+
+.about, .skills, .experience, .education, .projects {
+    margin: 5%;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+
+.experience h1 {
+    text-align: center;
+}
+
+
+.education h1 {
+    text-align: center;
+}
+
+.projects h1 {
+    text-align: center;
+}
+
+
+
+.edu-row, .exp-row, .skills-row, .about-row, .project-row {
+    border: solid;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: blueviolet;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+.github-mini-ico {
+    width: 20px;
+    height: 20px;
+}
